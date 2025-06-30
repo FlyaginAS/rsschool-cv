@@ -49,3 +49,11 @@ Developed a part of the corporate portal used by HR personnel. Can't show source
 
 Participated in expanding the functionality of the admin panel for insurance products. Also NDA..  
 [To VTB](https://www.vtb.com/)
+
+## Education
+
+- HTML Academy
+- Learn javascript ru
+- Udemy
+- Books(Clean code, O'Reilly, etc..)
+- Andersen inner courses and assignments
