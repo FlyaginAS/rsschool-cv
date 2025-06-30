@@ -29,3 +29,23 @@ Switched to IT, but the war ruined my plans. Then solved some problems, learned 
   - React Query
   * Redux
   - Styled Components
+
+## Code examples
+
+```
+function multiply(a, b){
+  return a * b;
+}
+```
+
+## Work Experience
+
+### Andersenlab - an inner project
+
+Developed a part of the corporate portal used by HR personnel. Can't show source code because of NDA..  
+[To Andersen](https://andersenlab.com/)
+
+### VTB bank - as outstaff personnel
+
+Participated in expanding the functionality of the admin panel for insurance products. Also NDA..  
+[To VTB](https://www.vtb.com/)
