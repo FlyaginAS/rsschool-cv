@@ -57,3 +57,7 @@ Participated in expanding the functionality of the admin panel for insurance pro
 - Udemy
 - Books(Clean code, O'Reilly, etc..)
 - Andersen inner courses and assignments
+
+## Languages
+
+I have approximately B1-B2 in English. Had conversations with native speakers from the USA, Canada, England, Africa, read a lot of books, watched a lot of movies and series. Continue improving skills.
