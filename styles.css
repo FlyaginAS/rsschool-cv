@@ -65,6 +65,30 @@ html {
 }
 .footer {
   height: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 20px;
   background-color: var(--main-orange);
   color: white;
+  font-size: 1.5rem;
+  line-height: 70px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.footer__year {
+  margin-left: 250px;
+}
+.footer__author {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: black;
+  }
+}
+.footer__logo-link {
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+}
+.footer__logo {
 }
