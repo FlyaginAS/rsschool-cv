@@ -7,6 +7,11 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
 .content {
   width: 1200px;
 
@@ -17,6 +22,33 @@
   height: 70px;
   background-color: var(--main-orange);
   color: white;
+}
+.navigation {
+  padding-right: 20px;
+}
+.navigation__list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation__item {
+  font-size: 1.5rem;
+  line-height: 70px;
+  font-weight: bold;
+  padding: 0 10px;
+
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 .main {
   min-height: 100vh;
