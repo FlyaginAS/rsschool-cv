@@ -1,3 +1,38 @@
+:root {
+  --main-orange: orange;
+  --main-highlight: orangered;
+  --main-background: #29292b;
+}
+
 * {
   box-sizing: border-box;
+}
+.content {
+  width: 1200px;
+
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.header {
+  height: 70px;
+  background-color: var(--main-orange);
+  color: white;
+}
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-info {
+  width: 700px;
+}
+.additional-info {
+  width: 500px;
+  background-color: var(--main-background);
+  color: white;
+}
+.footer {
+  height: 70px;
+  background-color: var(--main-orange);
+  color: white;
 }
