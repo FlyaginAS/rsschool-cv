@@ -1,1 +1,4 @@
-https://FlyaginAS.github.io/rsschool-cv/cv
+# rsschool-cv
+
+https://FlyaginAS.github.io/rsschool-cv/
+
