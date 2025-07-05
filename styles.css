@@ -184,9 +184,16 @@ html {
     }
   }
 }
+.additional-info__languages {
+  font-size: 1.3rem;
+}
+.additional-info__text {
+  font-size: 1.3rem;
+}
 .additional-info__skills {
   font-size: 1.3rem;
   line-height: 1.5;
+  margin-bottom: 40px;
   & > ul {
     list-style: none;
     padding: 0;
