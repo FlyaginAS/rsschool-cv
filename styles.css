@@ -58,9 +58,13 @@ html {
 }
 .main-info {
   width: 700px;
+  padding-right: 40px;
+  padding-top: 400px;
 }
 .additional-info {
   width: 500px;
+  padding: 40px;
+  padding-top: 300px;
   background-color: var(--main-background);
   color: white;
 }
@@ -94,6 +98,21 @@ html {
 .cv-profile__user-title {
   font-size: 2rem;
   text-transform: uppercase;
+}
+.main-info__summary {
+}
+.main-info__title {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: end;
+  background-color: orange;
+  padding: 10px;
+  padding-right: 40px;
+  text-transform: uppercase;
+}
+.main-info__summary-text {
+  font-size: 1.3rem;
+  margin-left: 40px;
 }
 .footer {
   height: 70px;
