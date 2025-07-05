@@ -119,11 +119,34 @@ html {
 .main-info__pre {
   margin-left: 40px;
   background-color: lightgray;
+  font-size: 1.1rem;
 }
 .main-info__experience {
 }
+.main-info__education {
+}
+.main-info__list {
+  padding: 0;
+  list-style: none;
+}
+.main-info__item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+  }
+}
 .main-info__title-3 {
   padding-left: 40px;
+  font-size: 1.5rem;
 }
 .footer {
   height: 70px;
