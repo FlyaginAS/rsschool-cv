@@ -148,6 +148,41 @@ html {
   padding-left: 40px;
   font-size: 1.5rem;
 }
+
+.additional-info__contacts {
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+.additional-info__title {
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid orange;
+  text-align: center;
+}
+.additional-info__list {
+  list-style: none;
+  padding: 0;
+}
+.additional-info__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  color: white;
+  a {
+    &:link {
+      color: white;
+    }
+    &:visited {
+      color: gray;
+    }
+    &:hover {
+      color: orange;
+    }
+    &:active {
+      color: orangered;
+    }
+  }
+}
 .footer {
   height: 70px;
   display: flex;
