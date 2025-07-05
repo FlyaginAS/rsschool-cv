@@ -152,6 +152,7 @@ html {
 .additional-info__contacts {
   margin-top: 40px;
   font-size: 1.3rem;
+  margin-bottom: 40px;
 }
 .additional-info__title {
   padding: 10px;
@@ -183,6 +184,15 @@ html {
     }
   }
 }
+.additional-info__skills {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  & > ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
 .footer {
   height: 70px;
   display: flex;
