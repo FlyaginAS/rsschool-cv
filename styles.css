@@ -110,7 +110,7 @@ html {
   padding-right: 40px;
   text-transform: uppercase;
 }
-.main-info__summary-text {
+.main-info__text {
   font-size: 1.3rem;
   margin-left: 40px;
 }
@@ -119,6 +119,11 @@ html {
 .main-info__pre {
   margin-left: 40px;
   background-color: lightgray;
+}
+.main-info__experience {
+}
+.main-info__title-3 {
+  padding-left: 40px;
 }
 .footer {
   height: 70px;
