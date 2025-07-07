@@ -1,10 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" >
   </head>
-  <body></body>
+  <body>
+    <div class="content">
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#summary">Summary</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#code">Code</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#experience">Experience</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#education">Education</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="cv-profile">
+          <img
+            class="cv-profile__user-photo"
+            src="./assets/images/userPhoto.png"
+            alt="user-photo"
+          >
+          <h1 class="cv-profile__user-name">Alexander Flyagin</h1>
+
+          <div class="cv-profile__user-title">Frontend developer</div>
+        </div>
+        <section class="main-info">
+          <div class="main-info__summary">
+            <h2 class="main-info__title" id="summary">Summary</h2>
+            <p class="main-info__text">
+              In my previous job, I used to work in NPP(nuclear power plant).
+              Switched to IT, but some known events ruined my plans. Then solved
+              some problems, learned English, decided to refresh my skills
+              and... here I am.
+            </p>
+          </div>
+          <div class="main-info__code">
+            <h2 class="main-info__title" id="code">Code</h2>
+            <pre class="main-info__pre">
+              <code>
+                function greet(HR) {
+                console.log(`Hello,${HR}`);
+                console.log('let's go to a cafe..');
+                console.log('and have a smalltalk') ;
+              }
+              </code>
+            </pre>
+          </div>
+          <div class="main-info__experience">
+            <h2 class="main-info__title" id="experience">Experience</h2>
+            <h3 class="main-info__title-3">Andersenlab - an inner project</h3>
+            <p class="main-info__text">
+              Developed a part of the corporate portal used by HR personnel.
+              Can't show the source code because of NDA..
+            </p>
+            <p class="main-info__text">
+              Look at LinkedIn recommendations in contacts
+            </p>
+            <p class="main-info__text">
+              <a href="https://andersenlab.com/" target="_blank">To Andersen</a>
+            </p>
+            <h3 class="main-info__title-3">VTB bank - as outstaff personnel</h3>
+            <p class="main-info__text">
+              Participated in expanding a functionality of an admin panel for
+              insurance products. Also under NDA..
+            </p>
+            <p class="main-info__text">
+              <a href="https://www.vtb.com/" target="_blank">To VTB</a>
+            </p>
+          </div>
+
+          <div class="main-info__education">
+            <h2 class="main-info__title" id="education">Education</h2>
+            <ul class="main-info__text main-info__list">
+              <li class="main-info__item">HTML Academy</li>
+              <li class="main-info__item">Learn javascript ru</li>
+              <li class="main-info__item">Udemy</li>
+              <li class="main-info__item">
+                Books(Clean code, O'Reilly, etc..)
+              </li>
+              <li class="main-info__item">
+                Andersen inner courses and assignments
+              </li>
+              <li class="main-info__item">
+                Official docs of various libraries
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="additional-info">
+          <div class="additional-info__contacts">
+            <h2 class="additional-info__title" id="contacts">Contact me</h2>
+            <ul class="additional-info__list">
+              <li class="additional-info__item">
+                <b>Email: </b>
+                <a href="mailto:rus.reg.36@gmail.com">rus.reg.36@gmail.com</a>
+              </li>
+              <li class="additional-info__item">
+                <b>Phone number: </b
+                ><a href="tel:+996558589805">+996 558 589 805</a>
+              </li>
+              <li class="additional-info__item">
+                <b>Telegram: </b>
+                <a href="https://t.me/Hi_Tech_64" target="_blank"
+                  >@Hi_Tech_64</a
+                >
+              </li>
+              <li class="additional-info__item">
+                <b>Discord: </b> <span>@flyaginas</span>
+              </li>
+              <li class="additional-info__item">
+                <b>LinkedIn: </b>
+                <a
+                  href="https://www.linkedin.com/in/alexander-flyagin-a74335215/details/recommendations/"
+                  target="_blank"
+                  >Recommendations</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="additional-info__skills">
+            <h2 class="additional-info__title" id="skills">Pro skills</h2>
+            <ul>
+              <li>
+                Soft skills
+                <ul>
+                  <li>Communicativeness</li>
+                  <li>Time management</li>
+                  <li>Learnability</li>
+                  <li>Client focus</li>
+                </ul>
+              </li>
+              <li>
+                Hard skills
+                <ul>
+                  <li>Javascript / Typescript</li>
+                  <li>React</li>
+                  <li>React Hook Form</li>
+                  <li>React Query</li>
+                  <li>Redux</li>
+                  <li>Styled Components</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="additional-info__languages">
+            <h2 class="additional-info__title" id="languages">Languages</h2>
+            <p class="additional-info__text">
+              I have approximately B1-B2 in English. Had conversations with
+              native speakers from the USA, Canada, England, Africa, have read a
+              lot of books, watched a lot of movies and series. Continue
+              improving skills.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <span class="footer__year">2025</span>
+        <a
+          class="footer__author"
+          href="https://github.com/FlyaginAS"
+          target="_blank"
+          >FAS Github</a
+        >
+
+        <a
+          class="footer__logo-link"
+          href="https://rs.school/courses/javascript-ru"
+          target="_blank"
+        >
+          <img
+            class="footer__logo"
+            src="./assets/images/rs-school-logo.svg"
+            height="50"
+            alt="RS school logo"
+          >
+        </a>
+      </footer>
+    </div>
+  </body>
 </html>
