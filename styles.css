@@ -1,0 +1,255 @@
+:root {
+  --main-orange: orange;
+  --main-highlight: orangered;
+  --main-background: #29292b;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.content {
+  width: 1200px;
+
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.header {
+  height: 70px;
+  background-color: var(--main-orange);
+  color: white;
+}
+.navigation {
+  padding-right: 20px;
+}
+.navigation__list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation__item {
+  font-size: 1.5rem;
+  line-height: 70px;
+  font-weight: bold;
+  padding: 0 10px;
+
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+.main {
+  position: relative;
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-info {
+  width: 700px;
+  padding-right: 40px;
+  padding-top: 400px;
+}
+.additional-info {
+  width: 500px;
+  padding: 40px;
+  padding-top: 300px;
+  background-color: var(--main-background);
+  color: white;
+}
+
+.cv-profile {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  padding-left: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1000px;
+  color: white;
+  background-color: orange;
+}
+.cv-profile__user-photo {
+  position: absolute;
+  left: -150px;
+  top: -100px;
+  width: 350px;
+  position: absolute;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.cv-profile__user-name {
+  font-size: 3rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+.cv-profile__user-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.main-info__summary {
+}
+.main-info__title {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: end;
+  background-color: orange;
+  padding: 10px;
+  padding-right: 40px;
+  text-transform: uppercase;
+}
+.main-info__text {
+  font-size: 1.3rem;
+  margin-left: 40px;
+}
+.main-info__code {
+}
+.main-info__pre {
+  margin-left: 40px;
+  background-color: lightgray;
+  font-size: 1.1rem;
+}
+.main-info__experience {
+}
+.main-info__education {
+}
+.main-info__list {
+  padding: 0;
+  list-style: none;
+}
+.main-info__item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+  }
+}
+.main-info__title-3 {
+  padding-left: 40px;
+  font-size: 1.5rem;
+}
+
+.additional-info__contacts {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+.additional-info__title {
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid orange;
+  text-align: center;
+}
+.additional-info__list {
+  list-style: none;
+  padding: 0;
+}
+.additional-info__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  color: white;
+  a {
+    &:link {
+      color: white;
+    }
+    &:visited {
+      color: gray;
+    }
+    &:hover {
+      color: orange;
+    }
+    &:active {
+      color: orangered;
+    }
+  }
+}
+.additional-info__languages {
+  font-size: 1.3rem;
+}
+.additional-info__text {
+  font-size: 1.3rem;
+}
+.additional-info__skills {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  & > ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.footer {
+  height: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 20px;
+  background-color: var(--main-orange);
+  color: white;
+  font-size: 1.5rem;
+  line-height: 70px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.footer__year {
+  margin-left: 250px;
+}
+.footer__author {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: black;
+  }
+}
+.footer__logo-link {
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.footer__logo {
+  &:hover {
+    animation: shake 0.5s ease-in-out;
+  }
+}
